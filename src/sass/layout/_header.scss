@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-tertiary;
+    padding: 0 3vw;
+
+    h1, img{
+        height: 12vh;
+    }
+    nav ul{
+        display: flex;
+
+        li{
+            margin: 10px 15px;
+            
+            a:hover{
+                border-bottom: 3px solid $color-primary;
+            }
+        }
+    }
+}

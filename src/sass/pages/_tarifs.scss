@@ -1,0 +1,11 @@
+.tarifs--page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+
+    >div:nth-child(2){
+        display: flex;
+        margin-bottom: 5vh;
+    }
+}

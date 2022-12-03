@@ -1,0 +1,44 @@
+//TYPOGRAPHY
+
+body{
+    font-family: $font-primary;
+    font-size: 0.9em;
+}
+
+.banner > p{
+    font-family: $font-secondary;
+    font-size: 4em;
+    color: white;
+    letter-spacing: 0.07em;
+    line-height: 1em;
+}
+
+
+//TITLES
+h2{
+    font-size: 1.8em;
+    font-family: $font-tertiary;
+    text-transform: uppercase;
+    margin: 0 0 5vh;
+}
+h3{
+    font-size: 1.5em;
+    font-family: $font-tertiary;
+    text-transform: uppercase;
+    margin: 0 0 2vh;
+    color: rgba($color: black, $alpha: 0.6);
+}
+
+//PARAGRAPHS
+.parag_1{
+    font-size: 1.2em;
+    font-family: $font-primary;
+    text-align: justify;
+    line-height: 1.8em;
+    letter-spacing: 0.02em;
+}
+
+//Header
+
+
+//Footer

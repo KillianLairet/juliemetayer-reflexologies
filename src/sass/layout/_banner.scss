@@ -1,0 +1,10 @@
+.banner{
+    display: flex;
+    height: 85vh;
+    position: relative;
+    background: url(../img/img_001.jpg) no-repeat center/110% fixed;
+    > p{
+        position: absolute;
+        bottom: 15vh; left: 25vh;
+    }
+}

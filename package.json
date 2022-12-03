@@ -1,0 +1,19 @@
+{
+  "name": "julie_metayer",
+  "version": "1.0.0",
+  "description": "Julie Metayer Réflexologue website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/main.scss:./src/css/style.css"
+  },
+  "keywords": [
+    "Sass",
+    "Javascript",
+    "Julie",
+    "Metayer",
+    "Killian",
+    "Lairet"
+  ],
+  "author": "Killian Lairet",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Century gothic';
+    src: url(../../font/century-gothic.ttf);
+}
+@font-face {
+    font-family: 'Noto serif display';
+    src: url(../../font/noto-serif-display.ttf),
+    url(../../font/noto-serif-display_italic.ttf);
+}
+
+@font-face {
+    font-family: 'Dancing script';
+    src: url(../../font/dancing-script.ttf);
+}
+
+$font-primary: 'Century gothic';
+$font-secondary: 'Dancing script';
+$font-tertiary: 'Noto serif display';

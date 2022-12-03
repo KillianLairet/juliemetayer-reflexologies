@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "Century gothic";
+  src: url(../../font/century-gothic.ttf);
+}
+@font-face {
+  font-family: "Noto serif display";
+  src: url(../../font/noto-serif-display.ttf), url(../../font/noto-serif-display_italic.ttf);
+}
+@font-face {
+  font-family: "Dancing script";
+  src: url(../../font/dancing-script.ttf);
+}
+body {
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+p, figure {
+  margin: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Century gothic";
+  font-size: 0.9em;
+}
+
+.banner > p {
+  font-family: "Dancing script";
+  font-size: 4em;
+  color: white;
+  letter-spacing: 0.07em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: "Noto serif display";
+  text-transform: uppercase;
+  margin: 0 0 5vh;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: "Noto serif display";
+  text-transform: uppercase;
+  margin: 0 0 2vh;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.parag_1 {
+  font-size: 1.2em;
+  font-family: "Century gothic";
+  text-align: justify;
+  line-height: 1.8em;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  display: block;
+  background-color: #00C69E;
+  border-radius: 0.5vw;
+  width: 18vw;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  transform: scale(1);
+  transition: transform 400ms ease-in-out;
+}
+.btn:hover {
+  border: 2px solid #00C69E;
+  background: none;
+  transform: scale(1.1);
+}
+
+.tarifs {
+  display: flex;
+  justify-content: center;
+  table-layout: auto;
+  width: 100%;
+}
+.tarifs table {
+  border: 5px solid #E5927E;
+  margin: 0.5vw;
+  width: 20vw;
+  border-collapse: collapse;
+}
+.tarifs table tr:nth-child(2), .tarifs table tr:nth-child(4) {
+  background-color: #FFF1EB;
+}
+.tarifs table tr:hover {
+  background-color: #E5927E;
+}
+.tarifs table:nth-child(2) {
+  border: 5px solid #00C69E;
+}
+.tarifs table:nth-child(2) tr:nth-child(2) {
+  background-color: rgba(0, 198, 158, 0.15);
+}
+.tarifs table:nth-child(2) tr:hover {
+  background-color: #00C69E;
+}
+.tarifs table .small {
+  font-size: 0.8em;
+}
+.tarifs tr, .tarifs td {
+  padding: 30px 20px;
+  width: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF1EB;
+  padding: 0 3vw;
+}
+header h1, header img {
+  height: 12vh;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 10px 15px;
+}
+header nav ul li a:hover {
+  border-bottom: 3px solid #E5927E;
+}
+
+.banner {
+  display: flex;
+  height: 85vh;
+  position: relative;
+  background: url(../img/img_001.jpg) no-repeat center/110% fixed;
+}
+.banner > p {
+  position: absolute;
+  bottom: 15vh;
+  left: 25vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 15vh 0;
+}
+footer .contact div p {
+  text-align: center;
+  margin: 1vh 0;
+  line-height: 1.8em;
+}
+footer .contact div:nth-child(1) a {
+  text-decoration: underline;
+}
+footer .contact div:nth-child(1) a:hover {
+  color: #E5927E;
+}
+footer .contact div:nth-child(2) ul {
+  display: flex;
+  justify-content: center;
+}
+footer .contact div:nth-child(2) ul img {
+  width: 2.5vw;
+  padding: 0 1vw;
+}
+footer .divider {
+  border: 1.5px solid #FFF1EB;
+  width: 80%;
+  margin-bottom: 5px;
+}
+footer .legals {
+  width: 80%;
+  margin: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+footer .legals ul {
+  display: flex;
+}
+footer .legals ul a {
+  text-decoration: underline;
+  margin: 0 12px;
+}
+footer .legals p {
+  display: flex;
+}
+footer figure {
+  height: 15vh;
+  padding: 10vh;
+}
+footer figure img {
+  height: 100%;
+}
+
+.citation {
+  display: flex;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF1EB;
+  color: #E5927E;
+}
+.citation div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 70vh;
+  background-color: white;
+}
+.citation div p {
+  width: 60vw;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1em;
+  font-family: "Dancing script";
+  letter-spacing: 0.07em;
+  transform: scale(1);
+  transition: transform 600ms ease-in-out;
+}
+.citation div p:hover {
+  transform: scale(1.2);
+}
+
+.accueil__concept {
+  display: flex;
+  margin: 0 10vw;
+  margin-top: 25vh;
+  margin-right: 0;
+}
+.accueil__concept__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 10vw 10vh 0;
+}
+.accueil__concept__left__reflexologie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 25vh;
+  position: relative;
+}
+.accueil__concept__left__reflexologie .btn {
+  position: absolute;
+  bottom: 5vh;
+}
+.accueil__concept__left .tarifs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0 0;
+}
+.accueil__concept__left .tarifs div {
+  display: flex;
+  margin: 0 0 2vh;
+}
+.accueil__concept__figure {
+  width: 280vw;
+}
+.accueil__concept__figure img {
+  width: 100%;
+}
+
+.qui-suis-je {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  width: 100%;
+}
+.qui-suis-je div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10vw;
+}
+.qui-suis-je div:nth-child(2) p {
+  width: 60%;
+}
+.qui-suis-je div:nth-child(2) img {
+  width: 25%;
+}
+.qui-suis-je figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh 0 0;
+  background-color: #FFF1EB;
+  width: 100%;
+  height: 120vh;
+}
+.qui-suis-je figure img {
+  width: 80%;
+}
+
+.la-reflexologie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+.la-reflexologie > p:nth-child(2) {
+  margin: 0 10vw;
+  text-align-last: center;
+  margin-bottom: 15vh;
+}
+.la-reflexologie > div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.la-reflexologie > div:nth-child(3) div {
+  width: 45%;
+}
+.la-reflexologie > div:nth-child(3) div p, .la-reflexologie > div:nth-child(3) div ul {
+  font-size: 1em;
+}
+.la-reflexologie > div:nth-child(3) div ul {
+  list-style-type: disc;
+  padding-left: 1vw;
+}
+.la-reflexologie > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh 0 0;
+  background-color: #FFF1EB;
+  width: 100%;
+  height: 120vh;
+}
+.la-reflexologie > figure img {
+  width: 70%;
+}
+
+.la-seance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+.la-seance > p:nth-child(2) {
+  margin: 0 10vw;
+  text-align-last: center;
+}
+.la-seance > div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 5vh 0;
+}
+.la-seance > div:nth-child(3) > figure:nth-child(1) {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.la-seance > div:nth-child(3) > figure:nth-child(2) {
+  width: 30%;
+}
+.la-seance > div:nth-child(3) img {
+  width: 100%;
+}
+.la-seance > div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15vh 0;
+  background-color: #FFF1EB;
+}
+.la-seance > div:nth-child(4) > ul {
+  text-align: center;
+}
+.la-seance > div:nth-child(4) > ul li {
+  margin: 1vh;
+}
+.la-seance > div:nth-child(4) > p:nth-child(3) {
+  margin: 5vh;
+}
+
+.tarifs--page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+.tarifs--page > div:nth-child(2) {
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.mentions-legales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  margin: 0 10vw;
+}
+.mentions-legales p {
+  margin: 5vh 0;
+  text-align-last: center;
+}
+
+/*# sourceMappingURL=style.css.map */

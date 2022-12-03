@@ -1,0 +1,36 @@
+.tarifs{
+    display: flex;
+    justify-content: center;
+    table-layout: auto;
+    width: 100%;
+    table{
+        border: 5px solid $color-primary;
+        margin: 0.5vw;
+        width: 20vw;
+        border-collapse: collapse;
+
+        tr:nth-child(2), tr:nth-child(4){
+            background-color: $color-tertiary;
+        }
+        tr:hover{
+            background-color: $color-primary;
+        }
+
+        &:nth-child(2){
+            border: 5px solid $color-accent;
+            tr:nth-child(2){
+                background-color: rgba($color: $color-accent, $alpha: 0.15);
+            }
+            tr:hover{
+                background-color: $color-accent;
+            }
+        }
+        .small{
+            font-size: 0.8em;
+        }
+    }
+    tr, td{
+        padding: 30px 20px;
+        width: 50%;
+    }
+}

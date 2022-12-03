@@ -1,0 +1,29 @@
+//import utils
+@import './utils/v-colors';
+@import './utils/v-fonts';
+@import './utils/mixins';
+
+//import base
+@import './base/base';
+@import './base/typography';
+
+//import components
+@import './components/buttons';
+@import './components/tarifs';
+
+//import layout
+@import './layout/header';
+@import './layout/banner';
+@import './layout/footer';
+
+//import pages
+@import './pages/accueil';
+@import './pages/qui-suis-je';
+@import './pages/la-reflexologie-plantaire';
+@import './pages/la-seance';
+@import './pages/tarifs';
+@import './pages/mentions-legales';
+
+//import themes
+
+//import vendors

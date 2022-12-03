@@ -1,0 +1,11 @@
+.mentions-legales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+    @include textMarge;
+    p{
+        margin: 5vh 0;
+        text-align-last: center;
+    }
+}
