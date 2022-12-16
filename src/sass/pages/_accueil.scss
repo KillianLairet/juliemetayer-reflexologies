@@ -34,7 +34,12 @@
         @include textMarge;
         margin-top: 25vh;
         margin-right: 0;
-
+        @include tablet{
+            flex-direction: column;
+        }
+        @include mobile{
+            flex-direction: column;
+        }
         &__left{
             display: flex;
             flex-direction: column;

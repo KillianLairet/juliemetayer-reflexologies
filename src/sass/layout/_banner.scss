@@ -7,4 +7,10 @@
         position: absolute;
         bottom: 15vh; left: 25vh;
     }
+    @include tablet{
+        height: 60vh;
+    }
+    @include mobile{
+        background: url(../img/img_001.jpg) no-repeat center/250% fixed;
+    }
 }

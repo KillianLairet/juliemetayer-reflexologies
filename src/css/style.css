@@ -10,6 +10,8 @@
   font-family: "Dancing script";
   src: url(../../font/dancing-script.ttf);
 }
+/* DECLARATION DES MAPS */
+/* MIXINS FOR MEDIA QUERIES */
 body {
   margin: 0px;
 }
@@ -39,6 +41,16 @@ body {
   font-family: "Century gothic";
   font-size: 0.9em;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  body {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+}
 
 .banner > p {
   font-family: "Dancing script";
@@ -46,6 +58,16 @@ body {
   color: white;
   letter-spacing: 0.07em;
   line-height: 1em;
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .banner > p {
+    font-size: 3em;
+  }
+}
+@media (max-width: 767px) {
+  .banner > p {
+    font-size: 2em;
+  }
 }
 
 h2 {
@@ -130,6 +152,20 @@ header {
   background-color: #FFF1EB;
   padding: 0 3vw;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  header {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 header h1, header img {
   height: 12vh;
 }
@@ -154,6 +190,16 @@ header nav ul li a:hover {
   bottom: 15vh;
   left: 25vh;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  .banner {
+    height: 60vh;
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    background: url(../img/img_001.jpg) no-repeat center/250% fixed;
+  }
+}
 
 footer {
   display: flex;
@@ -164,6 +210,18 @@ footer .contact {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  footer .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  footer .contact {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 footer .contact div {
   display: flex;
@@ -202,6 +260,18 @@ footer .legals {
   margin: 0 10vw;
   display: flex;
   justify-content: space-between;
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  footer .legals {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  footer .legals {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 footer .legals ul {
   display: flex;
@@ -257,6 +327,16 @@ footer figure img {
   margin-top: 25vh;
   margin-right: 0;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  .accueil__concept {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .accueil__concept {
+    flex-direction: column;
+  }
+}
 .accueil__concept__left {
   display: flex;
   flex-direction: column;
@@ -303,6 +383,32 @@ footer figure img {
   justify-content: space-between;
   margin: 0 10vw;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  .qui-suis-je div:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .qui-suis-je div:nth-child(2) img {
+    margin-top: 5vh;
+    width: 60%;
+  }
+}
+.qui-suis-je div:nth-child(2) p {
+  width: 60%;
+}
+.qui-suis-je div:nth-child(2) img {
+  width: 25%;
+}
+@media (max-width: 767px) {
+  .qui-suis-je div:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .qui-suis-je div:nth-child(2) img {
+    margin-top: 5vh;
+    width: 60%;
+  }
+}
 .qui-suis-je div:nth-child(2) p {
   width: 60%;
 }
@@ -338,11 +444,30 @@ footer figure img {
   justify-content: space-between;
   width: 80%;
 }
+@media (min-width: 768px) and (max-width: 990px) {
+  .la-reflexologie > div:nth-child(3) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .la-reflexologie > div:nth-child(3) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .la-reflexologie > div:nth-child(3) div {
   width: 45%;
 }
-.la-reflexologie > div:nth-child(3) div p, .la-reflexologie > div:nth-child(3) div ul {
-  font-size: 1em;
+@media (min-width: 768px) and (max-width: 990px) {
+  .la-reflexologie > div:nth-child(3) div {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .la-reflexologie > div:nth-child(3) div {
+    width: 100%;
+  }
 }
 .la-reflexologie > div:nth-child(3) div ul {
   list-style-type: disc;

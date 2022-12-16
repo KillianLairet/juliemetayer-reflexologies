@@ -3,6 +3,12 @@
 body{
     font-family: $font-primary;
     font-size: 0.9em;
+    @include tablet{
+        text-align: center;
+    }
+    @include mobile{
+        text-align: center;
+    }
 }
 
 .banner > p{
@@ -11,6 +17,12 @@ body{
     color: white;
     letter-spacing: 0.07em;
     line-height: 1em;
+    @include tablet{
+        font-size: 3em;
+    }
+    @include mobile{
+        font-size: 2em;
+    }
 }
 
 
